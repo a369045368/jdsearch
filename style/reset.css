@@ -1,0 +1,23 @@
+body,div,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,button,input,textarea,a,i,em,b,fieldset,form,label,legend{margin:0;padding:0;}
+body{font-family:Microsoft YaHei;font-size:16px;background:#fff;-webkit-user-select: none;-webkit-tap-highlight-color:transparent;}
+/*user-select: none;用户不能选择元素中的任何内容。
+ tap-highlight-color:transparent;去掉ios跟安卓点击之后出现默认背景灰色。*/
+ol,ul{list-style:none;}
+input,button,textarea,select{font-family:Microsoft YaHei;outline:none;border:none;-webkit-appearance: none;}
+/*appearance: none;清除所有标签自带的默认样式。*/
+a{text-decoration:none;color: #666;}
+a:visited,a:hover,a:active{color: #666;}
+img{border:0;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+i,em{font-style: normal;}
+b{font-weight: normal;}
+textarea{resize: none;}/*取消自动调节大小*/
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+/*box-sizing: border-box;对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度。*/
+/*清浮动*/ 
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+/*取消默认滚动条
+::-webkit-scrollbar{width: 0;}*/
+
+
